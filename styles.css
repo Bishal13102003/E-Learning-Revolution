@@ -1,0 +1,99 @@
+/* Reset default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header img {
+    width: 50px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Add margin for spacing */
+}
+
+header h1 {
+    font-size: 24px;
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.logo {
+    flex: 1;
+}
+
+.logo h1 {
+    font-size: 50px;
+}
+
+.headline h1 {
+    font-size: 30px;
+}
+
+.auth-links {
+    display: flex;
+    align-items: center;
+}
+
+.auth-links a{
+	color: #fff;
+}
+
+.pic1{
+	max-width: 100%;
+	overflow: hidden;
+}
+
+.pic1 img{
+	width: 100%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+}
+
